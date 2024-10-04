@@ -1,4 +1,4 @@
-# DB_Games_Reviews
+# DB_Games_Critic
 
 >Лямцев Георгий, 253501
 
