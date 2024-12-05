@@ -30,7 +30,7 @@
    - **_id_**: int, первичный ключ.
    - **_username_** (_логин_): varchar(50), unique, not null.
    - **_email_** (_почта_): varchar(100), unique, not null.
-   - **_password_hash_** (_хэш пароля_): char(64), not null. 
+   - **_password_hash_** (_хэш пароля_): char(60), not null. 
    - **_role_id_**: int, not null, внешний ключ на **roles.id**, связь один-ко-многим.
    - **_created_at_** (_время создания_): datetime.
    - **_updated_at_** (_время обновления_): datetime.
@@ -82,7 +82,7 @@
    - **_website_link_** (_ссылка на страничку в википеди_и): varchar(255).
    - **_logo_url_** (_url адрес картинки/лого компании_): varchar(255).
      
-8. **tags** - тэги.
+8. **tags** - тэги, которые любой зарегистрированный пользователь может добавлять к игре и возможность поиска по нескольким тэгам.
    - **_id_**: int, первичный ключ.
    - **_name_** (_имя тэга_): varchar(50), unique, not null.
   
